@@ -78,7 +78,8 @@ export default function Layout({ children }) {
         </div>
 
         {/* BOTTOM LOGOUT BUTTON */}
-        <div className="p-4 border-t border-gray-200">
+        <div className="py-4 px-2 border-t border-gray-200">
+          <p className="mb-6 text-gray-600 text-sm">Made with ❤️ by <a className="text-blue-300 underline" href="https://www.linkedin.com/in/vansh-sharma-sde/ ">Vansh Sharma</a></p>
           <button
             onClick={logout}
             className="w-full p-3 rounded-md bg-red-50 text-red-600 font-medium 
