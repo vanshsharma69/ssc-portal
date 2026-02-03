@@ -9,7 +9,7 @@ export default function Login() {
 
   const statePrefill = location.state || {};
 
-  const [email, setEmail] = useState(statePrefill.email || "Vansh@SSC.com");
+  const [email, setEmail] = useState(statePrefill.email || "");
   const [password, setPassword] = useState(statePrefill.password || "");
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
