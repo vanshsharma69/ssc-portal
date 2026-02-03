@@ -320,7 +320,7 @@ export default function MemberDetails() {
               <img
                 src={displayedImg}
                 alt={displayName}
-                className="w-60 h-60 object-cover rounded-2xl shadow-md border"
+                className="w-100 h-100 object-cover rounded-lg shadow-md border"
               />
               <span className="absolute -bottom-3 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full bg-black text-white text-xs shadow">
                 {displayRole}
